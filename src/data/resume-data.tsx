@@ -1,18 +1,18 @@
 import ConsultlyLogo from "../images/logos/consultly.svg";
-import AmbitLogo from "../images/logos/ambit.png";
+// import AmbitLogo from "../images/logos/ambit.png";
 import BarepapersLogo from "../images/logos/barepapers.svg";
-import BimLogo from "../images/logos/bim.png";
-import CDGOLogo from "../images/logos/cdgo.png";
-import ClevertechLogo from "../images/logos/clevertech.png";
+// import BimLogo from "../images/logos/bim.png";
+// import CDGOLogo from "../images/logos/cdgo.png";
+// import ClevertechLogo from "../images/logos/clevertech.png";
 import EvercastLogo from "../images/logos/evercast.svg";
 import Howdy from "../images/logos/howdy.png";
 import JarockiMeLogo from "../images/logos/jarocki.svg";
-import JojoMobileLogo from "../images/logos/jojomobile.png";
+// import JojoMobileLogo from "../images/logos/jojomobile.png";
 import MonitoLogo from "../images/logos/monito.svg";
 import MobileVikingsLogo from "../images/logos/mv.png";
-import NSNLogo from "../images/logos/nsn.svg";
+// import NSNLogo from "../images/logos/nsn.svg";
 import ParabolLogo from "../images/logos/parabol.svg";
-import TastyCloudLogo from "../images/logos/tastycloud.png";
+// import TastyCloudLogo from "../images/logos/tastycloud.png";
 import YearProgressLogo from "../images/logos/yearprogress.svg";
 import Minimal from "../images/logos/minimal.svg";
 import { GitHubIcon } from "../components/icons/GitHubIcon";
@@ -20,97 +20,95 @@ import { LinkedInIcon } from "../components/icons/LinkedInIcon";
 import { XIcon } from "../components/icons/XIcon";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Raymund Balicante",
+  initials: "RB",
+  location: "Ormoc City, Philippine, PHT",
+  locationLink: "https://www.google.com/maps/place/Ormoc,+Leyte",
   about:
     "Full Stack Engineer focused on building products with extra attention to details",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. Currently, I work mostly with TypeScript, React, VueJS, and Node.js. I have over 6 years of experience in working web development.",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  // personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "r.balicante@gmail.com",
+    tel: "+639668372511",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/musteray",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/musteray/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/rbalicante",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "STI College - Ormoc",
+      degree: "Bachelor's Degree in Information Technology",
+      start: "2011",
+      end: "2015",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Harken PH",
+      link: "#",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      title: "Full Stack Developer",
+      // logo: ParabolLogo,
+      start: "May 2023",
+      end: "Present",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Maintain and updates existing software. Using technologies like VueJS, NodeJS, MongoDB",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      company: "Lanex Philippines",
+      link: "https://lanexcorp.com",
+      badges: ["Hybrid"],
+      title: "Full Stack Developer",
+      // logo: ParabolLogo,
+      start: "Feb 2016",
+      end: "April 2023",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Collaborate with product owner, product designers, technical team lead, and business owners to ensure best user experience on the software. Maintain and updates existing software. Lead small team.",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "coreDev Solutions Inc.",
+      link: "https://www.coredev.ph/",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      title: "Web Developer",
+      // logo: NSNLogo,
+      start: "May 2015",
+      end: "Dec 2015",
+      description: "Created and maintained existing software using technologies PHP/Laravel, VueJS, JQuery & Boostrap UI",
     },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
+    "React/Next.js",
+    "VueJs",
     "Node.js",
+    "Python/Django",
+    "C# .NET",
+    "MongoDB",
+    "MySQL",
+    "PostgreSQL",
+    "Laravel 3/4",
+    "Docker",
+    "GIT",
+    "AWS",
     "GraphQL",
-    "Relay",
     "WebRTC",
   ],
   projects: [
@@ -221,8 +219,8 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "ReviewBuzz",
+      techStack: ["Software Engineer", "Android", "Kotlin"],
       description:
         "Android application for leading virtual mobile operator in Poland",
       logo: MobileVikingsLogo,
@@ -232,47 +230,43 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Nissan",
+      techStack: ["Lead Software Engineer", "JQuery", "Nginx", "PostgreSQL"],
       description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
+        "Web application catering to the needs of Nissan Fukushima Japan, facilitating online booking for vehicle services. The application should incorporate a comprehensive scheduling system that covers employees across all Nissan branches.",
+      // logo: Howdy,
       link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
+        label: "aisha-mente.jp",
+        href: "https://aisha-mente.jp/",
       },
     },
     {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Sanyou Tekkoujo",
+      techStack: ["Software Engineer", "PHP/Laravel 3/4", "ReactJS"],
       description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
+        "A web-based business management system.",
+    },
+    {
+      title: "Shangyo Shinko",
+      techStack: ["Software Engineer", "PHP/Laravel 3/4", "ReactJS"],
+      description:
+        "A web-based logistics tracking system.",
+    },
+    {
+      title: "Maruki CRM",
+      techStack: ["Software Engineer", "PHP", "ReactJS", "JQuery"],
+      description:
+        "A web-based CRM for medical supplies.",
+    },
+    {
+      title: "Orange Pay Plus (HRIS)",
+      techStack: ["Web Developer", "PHP/Laravel", "VueJS"],
+      description:
+        "A complete paperless HR Management Solutions for SMBs and Enterprise Businesses.",
       link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
+        label: "orangepayplus.com",
+        href: "https://cficoop.orangepayplus.com/",
       },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;

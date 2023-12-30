@@ -186,16 +186,12 @@ export default function Page() {
       </section>
 
       <CommandMenu
-        links={[
-          {
-            url: RESUME_DATA.personalWebsiteUrl,
-            title: "Personal Website",
-          },
-          ...RESUME_DATA.contact.social.map((socilaMediaLink) => ({
+        links={
+          RESUME_DATA.contact.social.map((socilaMediaLink) => ({
             url: socilaMediaLink.url,
             title: socilaMediaLink.name,
-          })),
-        ]}
+          }))
+        }
       />
     </main>
   );
