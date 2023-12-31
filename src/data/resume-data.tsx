@@ -28,7 +28,7 @@ export const RESUME_DATA = {
     "Full Stack Engineer focused on building products with extra attention to details",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. Currently, I work mostly with TypeScript, React, VueJS, and Node.js. I have over 6 years of experience in working web development.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  avatarUrl: "https://avatars.githubusercontent.com/u/13032465?s=400&u=bd3486bebee65e6939a6bd9251697ef0e4e0a712&v=4",
   // personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "r.balicante@gmail.com",
@@ -64,7 +64,7 @@ export const RESUME_DATA = {
       company: "Harken PH",
       link: "#",
       badges: ["Remote"],
-      title: "Full Stack Developer",
+      title: "Full Stack Engineer",
       // logo: ParabolLogo,
       start: "May 2023",
       end: "Present",
@@ -75,7 +75,7 @@ export const RESUME_DATA = {
       company: "Lanex Philippines",
       link: "https://lanexcorp.com",
       badges: ["Hybrid"],
-      title: "Full Stack Developer",
+      title: "Full Stack Engineer",
       // logo: ParabolLogo,
       start: "Feb 2016",
       end: "April 2023",
@@ -104,7 +104,7 @@ export const RESUME_DATA = {
     "MongoDB",
     "MySQL",
     "PostgreSQL",
-    "Laravel 3/4",
+    "Laravel 3/4/5",
     "Docker",
     "GIT",
     "AWS",
@@ -113,127 +113,125 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "FreshClinics",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
+        "Software Engineer",
+        "VueJS",
+        "NodeJS",
+        "MongoDB",
+        "AWS",
+      ],
+      description: "A web-based business system for cosmetic injectables, pain-free patient management & one stop shop.",
+      // logo: ConsultlyLogo,
+      link: {
+        label: "www.freshclinics.com.au",
+        href: "https://www.freshclinics.com.au/",
+      },
+    },
+    {
+      title: "Bruno - Video Screen Recorder",
+      techStack: [
+        "Software Engineer",
+        "VueJS",
         "Vite",
-        "GraphQL",
+        "AWS(Amplify, Cognito, S3)",
         "WebRTC",
+        "Django(Python)",
+        "Postgres"
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "SaaS application is specifically designed to video screen recording. It incorporates a Chrome extension that enables users to effortlessly capture and record videos and screen activities.",
+      // logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "www.bruno.ooo",
+        href: "https://www.bruno.ooo/home.html",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
+      title: "Chiteki Zaisan",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Software Engineer",
+        "Next.js",
+        ".NET C#(API)",
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
+        "A Joint Master Application that is a record keeping of the \"products/inventions\" relating to patents, grants, insurances.",
+      // logo: BarepapersLogo,
+      // link: {
+      //   label: "barepapers.com",
+      //   href: "https://barepapers.com/",
+      // },
     },
     {
-      title: "Evercast",
+      title: "Nexco",
       techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Software Engineer",
+        "Next.js",
+        ".NET C#(API)",
       ],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
+        "An internal Intellectual Property Management System for a Japanese Tollway Company that allows them to keep track of their patents.",
+      // logo: BarepapersLogo,
+      // link: {
+      //   label: "barepapers.com",
+      //   href: "https://barepapers.com/",
+      // },
+    },
+    {
+      title: "OSS-MANO",
+      techStack: ["Software Engineer", "Python", "Openstack(tacker)", "Ansible, Jenkins & Robot", "Podman & Docker", "HAProxy", "5VM setup", "Lsync & Rsync", "Postman & Newman", "GIT"],
+      description: "Develop various features for Openstack Tacker and provide customer-end system implementation/integration.",
+      // logo: YearProgressLogo,
+      // link: {
+      //   label: "getyearprogress.com",
+      //   href: "https://getyearprogress.com/",
+      // },
+    },
+    {
+      title: "OSS-Tech Center",
+      techStack: [
+        "Software Engineer",
+        "Wordpress(PHP)",
+        "JQuery",
+      ],
+      description:
+        "Wiki for OSS Team in NEC.",
+      // logo: ParabolLogo,
+      // link: {
+      //   label: "github.com",
+      //   href: "https://parabol.co/",
+      // },
+    },
+    {
+      title: "Hiyari Hatto",
+      techStack: [
+        "Software Engineer",
+        "ReactJS",
+        ".NET C#(API)",
+      ],
+      description:
+        "An internal incident tracking system for a Japanese Tollway Company that allows employees to log and keep track of incidents that happened in the tollway.",
+      // logo: EvercastLogo,
+      // link: {
+      //   label: "evercast.us",
+      //   href: "https://www.evercast.us/",
+      // },
     },
     {
       title: "ReviewBuzz",
-      techStack: ["Software Engineer", "Android", "Kotlin"],
+      techStack: ["Software Engineer", "VueJS", "Laravel 5.6", "Python", "AWS"],
       description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+        "Reputation Management System",
+      // logo: MobileVikingsLogo,
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "getreviewbuzz.com",
+        href: "https://getreviewbuzz.com/",
       },
     },
     {
       title: "Nissan",
-      techStack: ["Lead Software Engineer", "JQuery", "Nginx", "PostgreSQL"],
+      techStack: ["Lead Software Engineer", "JQuery", "Nginx", "Postgres"],
       description:
-        "Web application catering to the needs of Nissan Fukushima Japan, facilitating online booking for vehicle services. The application should incorporate a comprehensive scheduling system that covers employees across all Nissan branches.",
+        "Web application catering to the needs of Nissan Fukushima Japan, facilitating online booking for vehicle services.",
       // logo: Howdy,
       link: {
         label: "aisha-mente.jp",
