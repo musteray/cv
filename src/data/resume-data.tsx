@@ -22,7 +22,7 @@ import { XIcon } from "../components/icons/XIcon";
 export const RESUME_DATA = {
   name: "Raymund Balicante",
   initials: "RB",
-  location: "Ormoc City, Philippine, PHT",
+  location: "Ormoc City, Philippines, PHT",
   locationLink: "https://www.google.com/maps/place/Ormoc,+Leyte",
   jobTitle: "Full Stack Engineer",
   about:
@@ -179,8 +179,18 @@ export const RESUME_DATA = {
     },
     {
       title: "OSS-MANO",
-      techStack: ["Software Engineer", "Python", "Openstack(tacker)", "Ansible, Jenkins & Robot", "Podman & Docker", "HAProxy", "5VM setup", "Lsync & Rsync", "Postman & Newman", "GIT"],
-      description: "Develop various features for Openstack Tacker and provide customer-end system implementation/integration.",
+      techStack: [
+        "Software Engineer",
+        "Python",
+        "Openstack(tacker)",
+        "Ansible, Jenkins & Robot",
+        "Podman & Docker", "HAProxy",
+        "5VM setup", "Lsync & Rsync",
+        "Postman & Newman",
+        "GIT"
+      ],
+      description:
+        "Develop various features for Openstack Tacker and provide customer-end system implementation/integration.",
       // logo: YearProgressLogo,
       // link: {
       //   label: "getyearprogress.com",
