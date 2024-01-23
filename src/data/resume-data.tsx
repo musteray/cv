@@ -229,7 +229,15 @@ export const RESUME_DATA = {
     },
     {
       title: "ReviewBuzz",
-      techStack: ["Software Engineer", "VueJS", "Laravel 5.6", "Python", "AWS"],
+      techStack: [
+        "Software Engineer",
+        "VueJS",
+        "Laravel 5.6",
+        "Python",
+        "SocketIO",
+        "AWS Infrastructure",
+        "Microservices"
+      ],
       description:
         "Reputation Management System",
       // logo: MobileVikingsLogo,
