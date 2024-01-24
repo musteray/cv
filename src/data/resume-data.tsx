@@ -102,15 +102,18 @@ export const RESUME_DATA = {
     "Node.js",
     "Python/Django",
     "C# .NET",
+    "PHP/Laravel 3/4/5",
     "MongoDB",
+    "MariaDB",
+    "Microsoft SQL Server",
     "MySQL",
     "PostgreSQL",
-    "Laravel 3/4/5",
     "Docker",
     "GIT",
     "AWS",
     "GraphQL",
     "WebRTC",
+    "REST API"
   ],
   projects: [
     {
