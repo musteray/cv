@@ -21,14 +21,14 @@ import { XIcon } from "../components/icons/XIcon";
 
 export const RESUME_DATA = {
   name: "Raymund Balicante",
-  initials: "RB",
-  location: "Ormoc City, Philippines, PHT",
+  initials: "R_B",
+  location: "Ormoc City, Philippine, PHT",
   locationLink: "https://www.google.com/maps/place/Ormoc,+Leyte",
   jobTitle: "Full Stack Engineer",
   about:
     "Full Stack Engineer focused on building products with extra attention to details",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. Currently, I work mostly with TypeScript, React, VueJS, and Node.js. I have over 6 years of experience in working web development.",
+    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. Currently, I work mostly with TypeScript, React, Vue.js, and Node.js. I have over 7 years of experience in working web development.",
   avatarUrl: "https://avatars.githubusercontent.com/u/13032465?s=400&u=bd3486bebee65e6939a6bd9251697ef0e4e0a712&v=4",
   // personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -62,21 +62,21 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Harken PH",
+      company: "FreshClinics",
       link: "#",
       badges: ["Remote"],
-      title: "Full Stack Engineer",
+      title: "Full Stack Developer",
       // logo: ParabolLogo,
       start: "May 2023",
       end: "Present",
       description:
-        "Maintain and updates existing software. Using technologies like VueJS, NodeJS, MongoDB",
+        "Maintain and add new features using technologies like Vue.js 2, Node.js, and MongoDB",
     },
     {
       company: "Lanex Philippines",
       link: "https://lanexcorp.com",
       badges: ["Hybrid"],
-      title: "Full Stack Engineer",
+      title: "Software Engineer",
       // logo: ParabolLogo,
       start: "Feb 2016",
       end: "April 2023",
