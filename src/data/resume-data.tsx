@@ -68,9 +68,9 @@ export const RESUME_DATA = {
       title: "Full Stack Developer",
       // logo: ParabolLogo,
       start: "May 2023",
-      end: "Present",
+      end: "July 2025",
       description:
-        "Maintain and add new features using technologies like Vue.js 2, Node.js, and MongoDB",
+        "Collaborated cross-functionally to gather requirements, develop new features, and improve system performance by optimizing code and database queries. Conducted code reviews, mentored team members, and contributed to Agile ceremonies to ensure high-quality, scalable solutions.",
     },
     {
       company: "Lanex Philippines",
