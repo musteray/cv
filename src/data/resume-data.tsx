@@ -24,13 +24,12 @@ export const RESUME_DATA = {
   initials: "R_B",
   location: "Ormoc City, Philippine, PHT",
   locationLink: "https://www.google.com/maps/place/Ormoc,+Leyte",
-  jobTitle: "Full Stack Engineer",
+  jobTitle: "Software Engineer",
   about:
-    "Full Stack Engineer focused on building products with extra attention to details",
+    "Software Engineer focused on building products with extra attention to details",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. Currently, I work mostly with TypeScript, React, Vue.js, and Node.js. I have over 7 years of experience in working web development.",
+    "As a Software Engineer, I have successfully taken multiple products from 0 to 1. Currently, I work mostly with React.js, TypeScript, Vue.js, and Node.js. I have over 7 years of experience in working web development.",
   avatarUrl: "https://avatars.githubusercontent.com/u/13032465?s=400&u=bd3486bebee65e6939a6bd9251697ef0e4e0a712&v=4",
-  // personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "r.balicante@gmail.com",
     tel: "+639668372511",
@@ -65,7 +64,7 @@ export const RESUME_DATA = {
       company: "FreshClinics",
       link: "#",
       badges: ["Remote"],
-      title: "Full Stack Developer",
+      title: "FullStack Developer/Technical Lead",
       // logo: ParabolLogo,
       start: "May 2023",
       end: "July 2025",
@@ -88,17 +87,17 @@ export const RESUME_DATA = {
       link: "https://www.coredev.ph/",
       badges: [],
       title: "Web Developer",
-      // logo: NSNLogo,
       start: "May 2015",
       end: "Dec 2015",
-      description: "Created and maintained existing software using technologies PHP/Laravel, VueJS, JQuery & Boostrap UI",
+      description: "Created and maintained existing software using technologies PHP/Laravel, Vue.js, JQuery & Boostrap UI",
     },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
-    "React/Next.js",
-    "VueJs",
+    "React.js",
+    "Next.js",
+    "Vue.js",
     "Node.js",
     "Python/Django",
     "C# .NET",
@@ -113,20 +112,21 @@ export const RESUME_DATA = {
     "AWS",
     "GraphQL",
     "WebRTC",
-    "REST API"
+    "REST API",
+    "Shell Scripting"
   ],
   projects: [
     {
       title: "FreshClinics",
       techStack: [
-        "Software Engineer",
-        "VueJS",
+        "FullStack Developer",
+        "Technical Lead",
+        "Vue.js",
         "NodeJS",
         "MongoDB",
         "AWS",
       ],
       description: "A web-based business system for cosmetics professionals around Australia.",
-      // logo: ConsultlyLogo,
       link: {
         label: "www.freshclinics.com.au",
         href: "https://www.freshclinics.com.au/",
@@ -136,7 +136,7 @@ export const RESUME_DATA = {
       title: "Bruno - Video Screen Recorder",
       techStack: [
         "Software Engineer",
-        "VueJS",
+        "Vue.js",
         "Vite",
         "AWS(Amplify, Cognito, S3)",
         "WebRTC",
@@ -144,7 +144,6 @@ export const RESUME_DATA = {
         "Postgres"
       ],
       description: "SaaS application is specifically designed to video screen recording. It incorporates a Chrome extension that enables users to effortlessly capture and record videos and screen activities.",
-      // logo: ConsultlyLogo,
       link: {
         label: "www.bruno.ooo",
         href: "https://www.bruno.ooo/home.html",
@@ -159,11 +158,6 @@ export const RESUME_DATA = {
       ],
       description:
         "A Joint Master Application that is a record keeping of the \"products/inventions\" relating to patents, grants, insurances.",
-      // logo: BarepapersLogo,
-      // link: {
-      //   label: "barepapers.com",
-      //   href: "https://barepapers.com/",
-      // },
     },
     {
       title: "Nexco",
@@ -174,11 +168,6 @@ export const RESUME_DATA = {
       ],
       description:
         "An internal Intellectual Property Management System for a Japanese Tollway Company that allows them to keep track of their patents.",
-      // logo: BarepapersLogo,
-      // link: {
-      //   label: "barepapers.com",
-      //   href: "https://barepapers.com/",
-      // },
     },
     {
       title: "OSS-MANO",
@@ -194,47 +183,32 @@ export const RESUME_DATA = {
       ],
       description:
         "Develop various features for Openstack Tacker and provide customer-end system implementation/integration.",
-      // logo: YearProgressLogo,
-      // link: {
-      //   label: "getyearprogress.com",
-      //   href: "https://getyearprogress.com/",
-      // },
     },
     {
       title: "OSS-Tech Center",
       techStack: [
         "Software Engineer",
-        "Wordpress(PHP)",
+        "Wordpress",
         "JQuery",
       ],
       description:
         "Wiki for OSS Team in NEC.",
-      // logo: ParabolLogo,
-      // link: {
-      //   label: "github.com",
-      //   href: "https://parabol.co/",
-      // },
     },
     {
       title: "Hiyari Hatto",
       techStack: [
         "Software Engineer",
-        "ReactJS",
-        ".NET C#(API)",
+        "React.js",
+        ".NET C#",
       ],
       description:
         "An internal incident tracking system for a Japanese Tollway Company that allows employees to log and keep track of incidents that happened in the tollway.",
-      // logo: EvercastLogo,
-      // link: {
-      //   label: "evercast.us",
-      //   href: "https://www.evercast.us/",
-      // },
     },
     {
       title: "ReviewBuzz",
       techStack: [
         "Software Engineer",
-        "VueJS",
+        "Vue.js",
         "Laravel 5.6",
         "Python",
         "SocketIO",
@@ -243,7 +217,6 @@ export const RESUME_DATA = {
       ],
       description:
         "Reputation Management System",
-      // logo: MobileVikingsLogo,
       link: {
         label: "getreviewbuzz.com",
         href: "https://getreviewbuzz.com/",
@@ -251,10 +224,9 @@ export const RESUME_DATA = {
     },
     {
       title: "Nissan",
-      techStack: ["Lead Software Engineer", "JQuery", "Nginx", "Postgres"],
+      techStack: ["Team Lead", "JQuery", "Nginx", "Postgres"],
       description:
         "Web application catering to the needs of Nissan Fukushima Japan, facilitating online booking for vehicle services.",
-      // logo: Howdy,
       link: {
         label: "aisha-mente.jp",
         href: "https://aisha-mente.jp/",
@@ -262,25 +234,25 @@ export const RESUME_DATA = {
     },
     {
       title: "Sanyou Tekkoujo",
-      techStack: ["Software Engineer", "PHP/Laravel 3/4", "ReactJS"],
+      techStack: ["Software Engineer", "Laravel 3/4", "React.js"],
       description:
         "A web-based business management system.",
     },
     {
       title: "Shangyo Shinko",
-      techStack: ["Software Engineer", "PHP/Laravel 3/4", "ReactJS"],
+      techStack: ["Software Engineer", "Laravel 3/4", "React.js"],
       description:
         "A web-based logistics tracking system.",
     },
     {
       title: "Maruki CRM",
-      techStack: ["Software Engineer", "PHP", "ReactJS", "JQuery"],
+      techStack: ["Software Engineer", "PHP", "React.js", "JQuery"],
       description:
         "A web-based CRM for medical supplies.",
     },
     {
       title: "Orange Pay Plus (HRIS)",
-      techStack: ["Web Developer", "PHP/Laravel", "VueJS"],
+      techStack: ["Web Developer", "Laravel 2/3", "Vue.js"],
       description:
         "A complete paperless HR Management Solutions for SMBs and Enterprise Businesses.",
       link: {
