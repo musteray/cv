@@ -1,20 +1,3 @@
-// import ConsultlyLogo from "../images/logos/consultly.svg";
-// import AmbitLogo from "../images/logos/ambit.png";
-// import BarepapersLogo from "../images/logos/barepapers.svg";
-// import BimLogo from "../images/logos/bim.png";
-// import CDGOLogo from "../images/logos/cdgo.png";
-// import ClevertechLogo from "../images/logos/clevertech.png";
-// import EvercastLogo from "../images/logos/evercast.svg";
-// import Howdy from "../images/logos/howdy.png";
-// import JarockiMeLogo from "../images/logos/jarocki.svg";
-// import JojoMobileLogo from "../images/logos/jojomobile.png";
-// import MonitoLogo from "../images/logos/monito.svg";
-// import MobileVikingsLogo from "../images/logos/mv.png";
-// import NSNLogo from "../images/logos/nsn.svg";
-// import ParabolLogo from "../images/logos/parabol.svg";
-// import TastyCloudLogo from "../images/logos/tastycloud.png";
-// import YearProgressLogo from "../images/logos/yearprogress.svg";
-// import Minimal from "../images/logos/minimal.svg";
 import { GitHubIcon } from "../components/icons/GitHubIcon";
 import { LinkedInIcon } from "../components/icons/LinkedInIcon";
 import { XIcon } from "../components/icons/XIcon";
@@ -28,7 +11,7 @@ export const RESUME_DATA = {
   about:
     "Software Engineer focused on building products with extra attention to details",
   summary:
-    "As a Software Engineer, I have successfully taken multiple products from 0 to 1. Currently, I work mostly with React.js, TypeScript, Vue.js, and Node.js. I have over 7 years of experience in working web development.",
+    "Software Engineer with 7+ years of experience delivering scalable, high-performing web applications. Specialized in React.js, TypeScript, Vue.js, and Node.js with proven success in leading cross-functional teams and driving products from concept to launch.",
   avatarUrl: "https://avatars.githubusercontent.com/u/13032465?s=400&u=bd3486bebee65e6939a6bd9251697ef0e4e0a712&v=4",
   contact: {
     email: "r.balicante@gmail.com",
@@ -65,7 +48,6 @@ export const RESUME_DATA = {
       link: "#",
       badges: ["Remote"],
       title: "FullStack Developer/Technical Lead",
-      // logo: ParabolLogo,
       start: "May 2023",
       end: "July 2025",
       description:
@@ -76,7 +58,6 @@ export const RESUME_DATA = {
       link: "https://lanexcorp.com",
       badges: ["Hybrid"],
       title: "Software Engineer",
-      // logo: ParabolLogo,
       start: "Feb 2016",
       end: "April 2023",
       description:
@@ -93,27 +74,46 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React.js",
-    "Next.js",
-    "Vue.js",
-    "Node.js",
-    "Python/Django",
-    "C# .NET",
-    "PHP/Laravel 3/4/5",
-    "MongoDB",
-    "MariaDB",
-    "Microsoft SQL Server",
-    "MySQL",
-    "PostgreSQL",
-    "Docker",
-    "GIT",
-    "AWS",
-    "GraphQL",
-    "WebRTC",
-    "REST API",
-    "Shell Scripting"
+    {
+      title: "Frontend",
+      tools: [
+        "React.js",
+        "Next.js",
+        "Vue.js",
+        "JavaScript",
+        "TypeScript",
+      ]
+    },
+    {
+      title: "Backend",
+      tools: [
+        "Node.js",
+        "Django",
+        "C# .NET",
+        "Laravel"
+      ]
+    },
+    {
+      title: "Databases",
+      tools: [
+        "MongoDB",
+        "MS SQL Server",
+        "MySQL",
+        "PostgreSQL",
+        "MariaDB"
+      ]
+    },
+    {
+      title: "DevOps & Tools",
+      tools: [
+        "Shell Scripting",
+        "Docker",
+        "GIT",
+        "WebRTC",
+        "REST API",
+        "GraphQL"
+      ]
+    }
   ],
   projects: [
     {
@@ -170,41 +170,6 @@ export const RESUME_DATA = {
         "An internal Intellectual Property Management System for a Japanese Tollway Company that allows them to keep track of their patents.",
     },
     {
-      title: "OSS-MANO",
-      techStack: [
-        "Software Engineer",
-        "Python",
-        "Openstack(tacker)",
-        "Ansible, Jenkins & Robot",
-        "Podman & Docker", "HAProxy",
-        "5VM setup", "Lsync & Rsync",
-        "Postman & Newman",
-        "GIT"
-      ],
-      description:
-        "Develop various features for Openstack Tacker and provide customer-end system implementation/integration.",
-    },
-    {
-      title: "OSS-Tech Center",
-      techStack: [
-        "Software Engineer",
-        "Wordpress",
-        "JQuery",
-      ],
-      description:
-        "Wiki for OSS Team in NEC.",
-    },
-    {
-      title: "Hiyari Hatto",
-      techStack: [
-        "Software Engineer",
-        "React.js",
-        ".NET C#",
-      ],
-      description:
-        "An internal incident tracking system for a Japanese Tollway Company that allows employees to log and keep track of incidents that happened in the tollway.",
-    },
-    {
       title: "ReviewBuzz",
       techStack: [
         "Software Engineer",
@@ -231,24 +196,6 @@ export const RESUME_DATA = {
         label: "aisha-mente.jp",
         href: "https://aisha-mente.jp/",
       },
-    },
-    {
-      title: "Sanyou Tekkoujo",
-      techStack: ["Software Engineer", "Laravel 3/4", "React.js"],
-      description:
-        "A web-based business management system.",
-    },
-    {
-      title: "Shangyo Shinko",
-      techStack: ["Software Engineer", "Laravel 3/4", "React.js"],
-      description:
-        "A web-based logistics tracking system.",
-    },
-    {
-      title: "Maruki CRM",
-      techStack: ["Software Engineer", "PHP", "React.js", "JQuery"],
-      description:
-        "A web-based CRM for medical supplies.",
     },
     {
       title: "Orange Pay Plus (HRIS)",

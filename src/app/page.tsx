@@ -160,11 +160,24 @@ export default function Page() {
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
-              return <Badge key={skill}>{skill}</Badge>;
-            })}
-          </div>
+          {RESUME_DATA.skills.map((skill) => {
+            return (
+              <Card key={skill.title}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                      {skill.title}:
+                    </h3>
+                  </div>
+                </CardHeader>
+                <CardContent className="mt-2 flex flex-wrap gap-1">
+                  {skill.tools.map((tool) => {
+                    return <Badge key={tool}>{tool}</Badge>;
+                  })}
+                </CardContent>
+              </Card>
+            );
+          })}
         </Section>
 
         <Section className="print-force-new-page scroll-mb-16">
